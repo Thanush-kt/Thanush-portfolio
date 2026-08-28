@@ -43,7 +43,7 @@ export const Hero = () => {
   return (
     <section id="home" className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
       {/* Background Gradients */}
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-gradient-to-tr from-blue-600/15 via-cyan-500/15 to-purple-600/10 blur-[120px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-gradient-to-tr from-teal-600/15 via-cyan-500/15 to-purple-600/10 blur-[120px] rounded-full pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
@@ -56,7 +56,7 @@ export const Hero = () => {
               
               {/* Profile Picture Avatar */}
               <div className="relative group">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-blue-500 via-cyan-400 to-emerald-400 p-[2px] shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-gradient-to-br from-teal-500 via-cyan-400 to-emerald-400 p-[2px] shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform">
                   <div className="w-full h-full bg-slate-900 rounded-[14px] overflow-hidden flex items-center justify-center">
                     {!imgError && profileData.avatar ? (
                       <img
@@ -66,7 +66,7 @@ export const Hero = () => {
                         className="w-full h-full object-cover"
                       />
                     ) : (
-                      <div className="w-full h-full bg-gradient-to-br from-blue-900 to-slate-900 flex items-center justify-center text-cyan-300 font-extrabold text-xl">
+                      <div className="w-full h-full bg-gradient-to-br from-teal-900 to-slate-900 flex items-center justify-center text-cyan-300 font-extrabold text-xl">
                         TK
                       </div>
                     )}
@@ -96,9 +96,9 @@ export const Hero = () => {
             {/* Main Headline */}
             <div className="space-y-3">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-100 dark:text-slate-100 light:text-slate-900 leading-[1.15]">
-                Hi, I'm <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent">{profileData.name}</span>
+                Hi, I'm <span className="bg-gradient-to-r from-teal-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent">{profileData.name}</span>
               </h1>
-              <p className="text-lg sm:text-xl font-medium text-cyan-400 light:text-blue-600 tracking-wide">
+              <p className="text-lg sm:text-xl font-medium text-cyan-400 light:text-teal-600 tracking-wide">
                 {profileData.fullTitle}
               </p>
             </div>
@@ -112,7 +112,7 @@ export const Hero = () => {
             <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
               <a
                 href="#projects"
-                className="flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-semibold shadow-lg shadow-blue-500/25 transition-all hover:scale-[1.02] active:scale-[0.98]"
+                className="flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-teal-600 to-cyan-500 hover:from-teal-500 hover:to-cyan-400 text-white font-semibold shadow-lg shadow-teal-500/25 transition-all hover:scale-[1.02] active:scale-[0.98]"
               >
                 <span>View Projects</span>
                 <ArrowRight className="w-4 h-4" />
@@ -125,7 +125,7 @@ export const Hero = () => {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900/90 dark:bg-slate-900/90 light:bg-white border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-200 dark:text-slate-200 light:text-slate-800 hover:border-cyan-500/50 font-semibold shadow-md transition-all hover:scale-[1.02]"
                 >
-                  <Download className="w-4 h-4 text-cyan-400 light:text-blue-600" />
+                  <Download className="w-4 h-4 text-cyan-400 light:text-teal-600" />
                   <span>Download Resume</span>
                 </a>
               )}
@@ -142,13 +142,13 @@ export const Hero = () => {
             {/* Quick Links & Highlights */}
             <div className="pt-6 border-t border-slate-800/80 dark:border-slate-800/80 light:border-slate-200/80 flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400 dark:text-slate-400 light:text-slate-600">
               <div className="flex items-center gap-2">
-                <GithubIcon className="w-4 h-4 text-cyan-400 light:text-blue-600" />
+                <GithubIcon className="w-4 h-4 text-cyan-400 light:text-teal-600" />
                 <a href={profileData.socialLinks.github} target="_blank" rel="noreferrer" className="hover:underline">
                   github.com/thanushkt
                 </a>
               </div>
               <div className="flex items-center gap-2">
-                <LinkedinIcon className="w-4 h-4 text-blue-400 light:text-blue-600" />
+                <LinkedinIcon className="w-4 h-4 text-teal-400 light:text-teal-600" />
                 <a href={profileData.socialLinks.linkedin} target="_blank" rel="noreferrer" className="hover:underline">
                   LinkedIn Profile
                 </a>

@@ -63,13 +63,13 @@ export const Navbar = () => {
             href="#home"
             className="flex items-center gap-2 group text-xl font-bold tracking-tight transition-transform hover:scale-105"
           >
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-blue-500 via-cyan-400 to-emerald-400 p-[1.5px]">
+            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-teal-500 via-cyan-400 to-emerald-400 p-[1.5px]">
               <div className="w-full h-full bg-slate-900 dark:bg-slate-900 light:bg-white rounded-[7px] flex items-center justify-center">
-                <Code2 className="w-5 h-5 text-cyan-400 light:text-blue-600" />
+                <Code2 className="w-5 h-5 text-cyan-400 light:text-teal-600" />
               </div>
             </div>
             <span className="text-slate-100 dark:text-slate-100 light:text-slate-900">
-              Thanush<span className="text-cyan-400 light:text-blue-600">.KT</span>
+              Thanush<span className="text-cyan-400 light:text-teal-600">.KT</span>
             </span>
           </a>
 
@@ -83,7 +83,7 @@ export const Navbar = () => {
                   href={link.href}
                   className={`px-3 py-1.5 text-xs font-medium rounded-full transition-all duration-200 ${
                     isActive
-                      ? 'bg-blue-600 text-white shadow-sm shadow-blue-500/50'
+                      ? 'bg-teal-600 text-white shadow-sm shadow-teal-500/50'
                       : 'text-slate-400 dark:text-slate-400 light:text-slate-600 hover:text-slate-200 dark:hover:text-slate-200 light:hover:text-slate-900 hover:bg-slate-800/50 light:hover:bg-slate-200/50'
                   }`}
                 >
@@ -99,7 +99,7 @@ export const Navbar = () => {
             <button
               onClick={toggleTheme}
               aria-label="Toggle theme"
-              className="p-2 rounded-lg bg-slate-900/80 dark:bg-slate-900/80 light:bg-slate-100 border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 hover:text-cyan-400 light:hover:text-blue-600 transition-colors"
+              className="p-2 rounded-lg bg-slate-900/80 dark:bg-slate-900/80 light:bg-slate-100 border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 hover:text-cyan-400 light:hover:text-teal-600 transition-colors"
             >
               {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
             </button>
@@ -110,7 +110,7 @@ export const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub Profile"
-              className="p-2 rounded-lg bg-slate-900/80 dark:bg-slate-900/80 light:bg-slate-100 border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 hover:text-cyan-400 light:hover:text-blue-600 transition-colors"
+              className="p-2 rounded-lg bg-slate-900/80 dark:bg-slate-900/80 light:bg-slate-100 border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 hover:text-cyan-400 light:hover:text-teal-600 transition-colors"
             >
               <GithubIcon className="w-4 h-4" />
             </a>
@@ -120,7 +120,7 @@ export const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn Profile"
-              className="p-2 rounded-lg bg-slate-900/80 dark:bg-slate-900/80 light:bg-slate-100 border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 hover:text-cyan-400 light:hover:text-blue-600 transition-colors"
+              className="p-2 rounded-lg bg-slate-900/80 dark:bg-slate-900/80 light:bg-slate-100 border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-300 dark:text-slate-300 light:text-slate-700 hover:text-cyan-400 light:hover:text-teal-600 transition-colors"
             >
               <LinkedinIcon className="w-4 h-4" />
             </a>
@@ -131,7 +131,7 @@ export const Navbar = () => {
                 href={profileData.socialLinks.resume}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold rounded-lg bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white shadow-md shadow-blue-500/20 transition-all hover:scale-[1.02]"
+                className="flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold rounded-lg bg-gradient-to-r from-teal-600 to-cyan-500 hover:from-teal-500 hover:to-cyan-400 text-white shadow-md shadow-teal-500/20 transition-all hover:scale-[1.02]"
               >
                 <FileText className="w-3.5 h-3.5" />
                 <span>Resume</span>
@@ -169,7 +169,7 @@ export const Navbar = () => {
                   onClick={() => setMobileMenuOpen(false)}
                   className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
                     activeSection === link.id
-                      ? 'bg-blue-600 text-white'
+                      ? 'bg-teal-600 text-white'
                       : 'text-slate-300 dark:text-slate-300 light:text-slate-700 hover:bg-slate-800 dark:hover:bg-slate-800 light:hover:bg-slate-100'
                   }`}
                 >
@@ -200,7 +200,7 @@ export const Navbar = () => {
                   href={profileData.socialLinks.resume}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-white bg-blue-600 rounded-lg"
+                  className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-white bg-teal-600 rounded-lg"
                 >
                   <FileText className="w-4 h-4" /> Resume
                 </a>

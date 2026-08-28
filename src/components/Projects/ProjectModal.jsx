@@ -25,7 +25,7 @@ export const ProjectModal = ({ project, onClose }) => {
         {/* Modal Header */}
         <div className="space-y-3 border-b border-slate-800 pb-5 pr-10">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="px-3 py-1 rounded-full text-xs font-bold bg-blue-500/20 text-blue-400 border border-blue-500/30 uppercase tracking-wider">
+            <span className="px-3 py-1 rounded-full text-xs font-bold bg-teal-500/20 text-teal-400 border border-teal-500/30 uppercase tracking-wider">
               {project.type}
             </span>
             <span className="px-3 py-1 rounded-full text-xs font-medium bg-slate-800 text-slate-300">
@@ -44,8 +44,8 @@ export const ProjectModal = ({ project, onClose }) => {
 
         {/* Telegram Bot Special Highlight for Major Crypto Project */}
         {project.telegramBotHighlight && (
-          <div className="p-4 rounded-xl bg-gradient-to-r from-blue-950/80 to-cyan-950/80 border border-blue-500/40 flex items-start gap-3">
-            <div className="p-2 rounded-lg bg-blue-500/20 text-cyan-400 shrink-0">
+          <div className="p-4 rounded-xl bg-gradient-to-r from-teal-950/80 to-cyan-950/80 border border-teal-500/40 flex items-start gap-3">
+            <div className="p-2 rounded-lg bg-teal-500/20 text-cyan-400 shrink-0">
               <MessageSquare className="w-5 h-5" />
             </div>
             <div>
@@ -164,7 +164,7 @@ export const ProjectModal = ({ project, onClose }) => {
                 href={project.liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold transition-colors"
+                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-teal-600 hover:bg-teal-500 text-white text-xs font-semibold transition-colors"
               >
                 <ExternalLink className="w-4 h-4" />
                 <span>Live Demo</span>

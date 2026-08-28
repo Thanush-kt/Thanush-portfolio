@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { skillsData } from '../data/skills';
-import { Code2, Layout, Server, Brain, Database, Terminal, CheckCircle } from 'lucide-react';
+import { Code2, Layout, Server, Brain, Database, Terminal, Check } from 'lucide-react';
 
 export const Skills = () => {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -27,8 +27,8 @@ export const Skills = () => {
         {/* Section Header */}
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12">
           <div className="max-w-2xl space-y-4">
-            <div className="flex items-center gap-3 text-cyan-400 light:text-blue-600 text-xs font-bold uppercase tracking-[0.2em]">
-              <span className="h-px w-8 bg-cyan-400 light:bg-blue-600" />
+            <div className="flex items-center gap-3 text-cyan-400 light:text-teal-600 text-xs font-bold uppercase tracking-[0.2em]">
+              <span className="h-px w-8 bg-cyan-400 light:bg-teal-600" />
               Technical Stack
             </div>
             <h2 className="text-3xl sm:text-5xl font-bold tracking-tight text-slate-100 dark:text-slate-100 light:text-slate-900">
@@ -54,7 +54,7 @@ export const Skills = () => {
               className={`shrink-0 px-4 py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all duration-200 ${
                 activeCategory === category
                   ? 'bg-cyan-400 text-slate-950 shadow-md shadow-cyan-500/20'
-                  : 'bg-slate-900/80 dark:bg-slate-900/80 light:bg-white text-slate-400 dark:text-slate-400 light:text-slate-700 hover:text-cyan-300 dark:hover:text-cyan-300 light:hover:text-blue-600 border border-slate-800 dark:border-slate-800 light:border-slate-200'
+                  : 'bg-slate-900/80 dark:bg-slate-900/80 light:bg-white text-slate-400 dark:text-slate-400 light:text-slate-700 hover:text-cyan-300 dark:hover:text-cyan-300 light:hover:text-teal-600 border border-slate-800 dark:border-slate-800 light:border-slate-200'
               }`}
             >
               {category}
@@ -75,11 +75,11 @@ export const Skills = () => {
                   {/* Category Header */}
                   <div className="flex items-start justify-between gap-4 mb-4">
                     <div className="flex items-center gap-3">
-                    <div className="p-2.5 rounded-xl bg-cyan-400/10 text-cyan-400 light:text-blue-600 border border-cyan-400/20">
+                    <div className="p-2.5 rounded-xl bg-cyan-400/10 text-cyan-400 light:text-teal-600 border border-cyan-400/20">
                       <IconComponent className="w-5 h-5" />
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold text-slate-100 dark:text-slate-100 light:text-slate-900 group-hover:text-cyan-300 light:group-hover:text-blue-600 transition-colors">
+                      <h3 className="text-lg font-bold text-slate-100 dark:text-slate-100 light:text-slate-900 group-hover:text-cyan-300 light:group-hover:text-teal-600 transition-colors">
                         {group.category}
                       </h3>
                     </div>
@@ -102,11 +102,11 @@ export const Skills = () => {
                           <span className="text-sm font-semibold text-slate-200 dark:text-slate-200 light:text-slate-900">
                             {skill.name}
                           </span>
-                          <CheckCircle className="w-3.5 h-3.5 text-cyan-400 light:text-blue-600" />
+                          <Check className="w-4 h-4 text-emerald-400 dark:text-emerald-400 light:text-emerald-600" strokeWidth={2.5} />
                         </div>
                         <div className="flex items-center justify-between text-[11px]">
                           <span className="text-slate-400 dark:text-slate-400 light:text-slate-500">{skill.level}</span>
-                          <span className="px-1.5 py-0.5 rounded text-[10px] font-medium bg-slate-800 dark:bg-slate-800 light:bg-slate-200 text-cyan-300 dark:text-cyan-300 light:text-blue-700">
+                          <span className="px-1.5 py-0.5 rounded text-[10px] font-medium bg-slate-800 dark:bg-slate-800 light:bg-slate-200 text-cyan-300 dark:text-cyan-300 light:text-teal-700">
                             {skill.tag}
                           </span>
                         </div>

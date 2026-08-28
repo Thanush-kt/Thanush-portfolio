@@ -3,12 +3,12 @@ import { LayoutDashboard, Cpu, Workflow, Brain, TrendingUp, Zap, Database, Serve
 
 export const CryptoArchitectureDiagram = () => {
   const steps = [
-    { icon: LayoutDashboard, label: "Frontend Dashboard", tech: "React + Tailwind", color: "from-blue-500 to-cyan-500" },
+    { icon: LayoutDashboard, label: "Frontend Dashboard", tech: "React + Tailwind", color: "from-teal-500 to-cyan-500" },
     { icon: Cpu, label: "Decision Engine", tech: "FastAPI Async Core", color: "from-cyan-500 to-teal-500" },
     { icon: Workflow, label: "Orchestration / Agent Service", tech: "LangChain Workflows", color: "from-teal-500 to-emerald-500" },
     { icon: Brain, label: "AI / NLP Processing", tech: "Ollama LLM & Telegram Bot", color: "from-purple-500 to-indigo-500" },
     { icon: TrendingUp, label: "Trading Strategy", tech: "Evaluation Matrix", color: "from-amber-500 to-orange-500" },
-    { icon: Zap, label: "Execution Layer", tech: "Signal Dispatcher", color: "from-emerald-500 to-blue-500" }
+    { icon: Zap, label: "Execution Layer", tech: "Signal Dispatcher", color: "from-emerald-500 to-teal-500" }
   ];
 
   const services = [
@@ -67,7 +67,7 @@ export const CryptoArchitectureDiagram = () => {
             const IconComp = srv.icon;
             return (
               <div key={idx} className="p-3 rounded-lg bg-slate-900/60 border border-slate-800 flex items-center gap-3">
-                <div className="p-2 rounded-md bg-blue-500/10 text-blue-400">
+                <div className="p-2 rounded-md bg-teal-500/10 text-teal-400">
                   <IconComp className="w-4 h-4" />
                 </div>
                 <div>

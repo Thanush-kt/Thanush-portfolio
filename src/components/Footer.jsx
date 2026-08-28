@@ -40,7 +40,7 @@ export const Footer = () => {
               href={profileData.socialLinks.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-blue-400 hover:border-slate-700 transition-colors"
+              className="p-2.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 hover:text-teal-400 hover:border-slate-700 transition-colors"
               aria-label="LinkedIn Profile"
             >
               <LinkedinIcon className="w-4 h-4" />

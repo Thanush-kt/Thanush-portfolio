@@ -9,7 +9,7 @@ export const CodingSection = () => {
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-12">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 light:text-blue-600 text-xs font-semibold uppercase tracking-wider">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 light:text-teal-600 text-xs font-semibold uppercase tracking-wider">
             Problem Solving & Logic
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-100 dark:text-slate-100 light:text-slate-900">
@@ -27,7 +27,7 @@ export const CodingSection = () => {
               key={idx}
               className="p-5 rounded-2xl bg-slate-900/60 dark:bg-slate-900/60 light:bg-white border border-slate-800/80 dark:border-slate-800/80 light:border-slate-200 hover:border-cyan-500/40 transition-all flex items-start gap-3"
             >
-              <div className="p-2.5 rounded-xl bg-cyan-500/10 text-cyan-400 light:text-blue-600 shrink-0">
+              <div className="p-2.5 rounded-xl bg-cyan-500/10 text-cyan-400 light:text-teal-600 shrink-0">
                 <FileCode2 className="w-5 h-5" />
               </div>
               <div>

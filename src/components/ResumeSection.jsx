@@ -7,12 +7,12 @@ export const ResumeSection = () => {
     <section id="resume" className="py-16 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="relative rounded-3xl bg-gradient-to-r from-blue-900/40 via-slate-900 to-cyan-900/40 dark:from-blue-900/40 dark:via-slate-900 dark:to-cyan-900/40 light:from-blue-50 light:via-white light:to-cyan-50 border border-blue-500/30 light:border-blue-200 p-8 sm:p-12 overflow-hidden">
+        <div className="relative rounded-3xl bg-gradient-to-r from-teal-900/40 via-slate-900 to-cyan-900/40 dark:from-teal-900/40 dark:via-slate-900 dark:to-cyan-900/40 light:from-teal-50 light:via-white light:to-cyan-50 border border-teal-500/30 light:border-teal-200 p-8 sm:p-12 overflow-hidden">
           
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8 relative z-10">
             
             <div className="space-y-4 max-w-2xl text-center lg:text-left">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 text-cyan-400 light:text-blue-600 text-xs font-semibold uppercase tracking-wider">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 text-cyan-400 light:text-teal-600 text-xs font-semibold uppercase tracking-wider">
                 <FileText className="w-3.5 h-3.5" /> Professional Resume
               </div>
               
@@ -30,7 +30,7 @@ export const ResumeSection = () => {
                 href={profileData.socialLinks.resume}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold text-sm shadow-lg shadow-blue-500/25 transition-all hover:scale-105"
+                className="flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-teal-600 to-cyan-500 hover:from-teal-500 hover:to-cyan-400 text-white font-bold text-sm shadow-lg shadow-teal-500/25 transition-all hover:scale-105"
               >
                 <ExternalLink className="w-4 h-4" />
                 <span>View Resume</span>
@@ -41,7 +41,7 @@ export const ResumeSection = () => {
                 download="Thanush_KT_Resume.pdf"
                 className="flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-900 dark:bg-slate-900 light:bg-slate-100 border border-slate-800 dark:border-slate-800 light:border-slate-300 text-slate-200 dark:text-slate-200 light:text-slate-800 font-bold text-sm hover:border-cyan-500/50 transition-all hover:scale-105"
               >
-                <Download className="w-4 h-4 text-cyan-400 light:text-blue-600" />
+                <Download className="w-4 h-4 text-cyan-400 light:text-teal-600" />
                 <span>Download Resume</span>
               </a>
             </div>

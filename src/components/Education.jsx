@@ -9,7 +9,7 @@ export const Education = () => {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-12">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 light:text-blue-600 text-xs font-semibold uppercase tracking-wider">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 light:text-teal-600 text-xs font-semibold uppercase tracking-wider">
             Academic Foundation
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-100 dark:text-slate-100 light:text-slate-900">
@@ -22,14 +22,14 @@ export const Education = () => {
           
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-800 dark:border-slate-800 light:border-slate-200 pb-6">
             <div className="flex items-center gap-4">
-              <div className="p-4 rounded-2xl bg-blue-500/10 text-blue-400 light:text-blue-600">
+              <div className="p-4 rounded-2xl bg-teal-500/10 text-teal-400 light:text-teal-600">
                 <GraduationCap className="w-8 h-8" />
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-slate-100 dark:text-slate-100 light:text-slate-900">
                   {educationData.degree}
                 </h3>
-                <p className="text-sm font-semibold text-cyan-400 light:text-blue-600">
+                <p className="text-sm font-semibold text-cyan-400 light:text-teal-600">
                   {educationData.institution}
                 </p>
               </div>
@@ -50,7 +50,7 @@ export const Education = () => {
           {/* Relevant Coursework Grid */}
           <div className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-400 light:text-slate-500 flex items-center gap-2">
-              <BookOpen className="w-4 h-4 text-cyan-400 light:text-blue-600" /> Core Engineering Coursework
+              <BookOpen className="w-4 h-4 text-cyan-400 light:text-teal-600" /> Core Engineering Coursework
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
               {educationData.relevantCoursework.map((course, idx) => (
@@ -58,7 +58,7 @@ export const Education = () => {
                   key={idx}
                   className="p-3 rounded-xl bg-slate-950/60 dark:bg-slate-950/60 light:bg-slate-50 border border-slate-800/60 dark:border-slate-800/60 light:border-slate-200 text-xs font-medium text-slate-300 dark:text-slate-300 light:text-slate-800 flex items-center gap-2"
                 >
-                  <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 light:bg-blue-600" />
+                  <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 light:bg-teal-600" />
                   <span>{course}</span>
                 </div>
               ))}

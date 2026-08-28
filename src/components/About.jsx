@@ -9,7 +9,7 @@ export const About = () => {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 light:text-blue-600 text-xs font-semibold uppercase tracking-wider">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 light:text-teal-600 text-xs font-semibold uppercase tracking-wider">
             About Me
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-100 dark:text-slate-100 light:text-slate-900">
@@ -21,8 +21,8 @@ export const About = () => {
         </div>
 
         {/* Ethos Banner */}
-        <div className="mb-12 p-6 rounded-2xl bg-gradient-to-r from-blue-900/30 via-slate-900 to-cyan-900/30 dark:from-blue-900/30 dark:via-slate-900 dark:to-cyan-900/30 light:from-blue-50 light:via-white light:to-cyan-50 border border-blue-500/30 light:border-blue-200 text-center">
-          <div className="text-xs uppercase tracking-widest text-cyan-400 light:text-blue-600 font-semibold mb-2">Development Mindset</div>
+        <div className="mb-12 p-6 rounded-2xl bg-gradient-to-r from-teal-900/30 via-slate-900 to-cyan-900/30 dark:from-teal-900/30 dark:via-slate-900 dark:to-cyan-900/30 light:from-teal-50 light:via-white light:to-cyan-50 border border-teal-500/30 light:border-teal-200 text-center">
+          <div className="text-xs uppercase tracking-widest text-cyan-400 light:text-teal-600 font-semibold mb-2">Development Mindset</div>
           <div className="text-2xl sm:text-3xl font-extrabold tracking-wide text-slate-100 dark:text-slate-100 light:text-slate-900">
             {profileData.ethos}
           </div>
@@ -31,8 +31,8 @@ export const About = () => {
         {/* Core Pillars Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           
-          <div className="p-6 rounded-2xl bg-slate-900/60 dark:bg-slate-900/60 light:bg-white border border-slate-800/80 dark:border-slate-800/80 light:border-slate-200 hover:border-blue-500/50 transition-all space-y-4">
-            <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 light:text-blue-600">
+          <div className="p-6 rounded-2xl bg-slate-900/60 dark:bg-slate-900/60 light:bg-white border border-slate-800/80 dark:border-slate-800/80 light:border-slate-200 hover:border-teal-500/50 transition-all space-y-4">
+            <div className="w-10 h-10 rounded-xl bg-teal-500/10 flex items-center justify-center text-teal-400 light:text-teal-600">
               <GraduationCap className="w-5 h-5" />
             </div>
             <h3 className="text-lg font-bold text-slate-100 dark:text-slate-100 light:text-slate-900">Academic Background</h3>

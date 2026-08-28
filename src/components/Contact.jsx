@@ -75,7 +75,7 @@ export const Contact = () => {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 light:text-blue-600 text-xs font-semibold uppercase tracking-wider">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 light:text-teal-600 text-xs font-semibold uppercase tracking-wider">
             Get In Touch
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-100 dark:text-slate-100 light:text-slate-900">
@@ -119,14 +119,14 @@ export const Contact = () => {
                   href={profileData.socialLinks.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 rounded-2xl bg-slate-950/60 dark:bg-slate-950/60 light:bg-slate-50 border border-slate-800/60 dark:border-slate-800/60 light:border-slate-200 hover:border-blue-500/50 transition-all group"
+                  className="flex items-center gap-4 p-4 rounded-2xl bg-slate-950/60 dark:bg-slate-950/60 light:bg-slate-50 border border-slate-800/60 dark:border-slate-800/60 light:border-slate-200 hover:border-teal-500/50 transition-all group"
                 >
-                  <div className="p-3 rounded-xl bg-blue-500/10 text-blue-400 group-hover:scale-110 transition-transform">
+                  <div className="p-3 rounded-xl bg-teal-500/10 text-teal-400 group-hover:scale-110 transition-transform">
                     <LinkedinIcon className="w-5 h-5" />
                   </div>
                   <div>
                     <div className="text-xs font-semibold text-slate-400 dark:text-slate-400 light:text-slate-500">LinkedIn Profile</div>
-                    <div className="text-sm font-bold text-slate-200 dark:text-slate-200 light:text-slate-800 group-hover:text-blue-400 transition-colors">
+                    <div className="text-sm font-bold text-slate-200 dark:text-slate-200 light:text-slate-800 group-hover:text-teal-400 transition-colors">
                       Connect on LinkedIn
                     </div>
                   </div>
@@ -265,7 +265,7 @@ export const Contact = () => {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-bold text-sm shadow-lg shadow-blue-500/25 transition-all hover:scale-[1.01]"
+                    className="w-full flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-teal-600 to-cyan-500 hover:from-teal-500 hover:to-cyan-400 text-white font-bold text-sm shadow-lg shadow-teal-500/25 transition-all hover:scale-[1.01]"
                   >
                     {isSubmitting ? (
                       <span>Sending...</span>

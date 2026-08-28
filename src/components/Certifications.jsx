@@ -11,7 +11,7 @@ export const Certifications = () => {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 light:text-blue-600 text-xs font-semibold uppercase tracking-wider">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 light:text-teal-600 text-xs font-semibold uppercase tracking-wider">
             Verified Knowledge
           </div>
           <h2 className="text-3xl font-bold tracking-tight text-slate-100 dark:text-slate-100 light:text-slate-900">
@@ -46,7 +46,7 @@ export const Certifications = () => {
         ) : (
           /* Subtle Empty / Coming Soon Placeholder */
           <div className="max-w-xl mx-auto p-8 rounded-2xl bg-slate-900/40 dark:bg-slate-900/40 light:bg-white border border-slate-800/80 dark:border-slate-800/80 light:border-slate-200 text-center space-y-3">
-            <div className="w-12 h-12 rounded-2xl bg-slate-800 dark:bg-slate-800 light:bg-slate-100 text-cyan-400 light:text-blue-600 flex items-center justify-center mx-auto">
+            <div className="w-12 h-12 rounded-2xl bg-slate-800 dark:bg-slate-800 light:bg-slate-100 text-cyan-400 light:text-teal-600 flex items-center justify-center mx-auto">
               <ShieldCheck className="w-6 h-6" />
             </div>
             <h3 className="text-lg font-bold text-slate-200 dark:text-slate-200 light:text-slate-900">
