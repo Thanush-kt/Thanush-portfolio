@@ -1,0 +1,11 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#0F172A"/>
+  <rect x="110" y="110" width="980" height="680" rx="28" fill="#111827" stroke="#F8FAFC" stroke-opacity="0.2"/>
+  <circle cx="410" cy="360" r="135" fill="#38BDF8" fill-opacity="0.12"/>
+  <circle cx="790" cy="360" r="135" fill="#F59E0B" fill-opacity="0.12"/>
+  <path d="M330 430C390 260 510 204 630 224C690 234 744 268 790 330C722 360 652 432 656 522H388C384 482 356 450 330 430Z" fill="#22D3EE" fill-opacity="0.2" stroke="#67E8F9" stroke-width="4"/>
+  <path d="M690 420C752 264 860 226 930 260C970 280 1004 314 1030 354C962 390 905 452 914 536H722C706 510 700 468 690 420Z" fill="#FBBF24" fill-opacity="0.15" stroke="#FCD34D" stroke-width="4"/>
+  <rect x="160" y="150" width="250" height="56" rx="16" fill="#0F172A" stroke="#F8FAFC" stroke-opacity="0.35"/>
+  <text x="285" y="188" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="24" font-weight="700">Rock Paper Scissors</text>
+  <text x="600" y="760" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="42" font-weight="700">Game Logic Practice</text>
+</svg>

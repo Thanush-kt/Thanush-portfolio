@@ -1,0 +1,13 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#0B1120"/>
+  <rect x="90" y="110" width="1020" height="680" rx="30" fill="#111827" stroke="#38BDF8" stroke-opacity="0.35"/>
+  <circle cx="350" cy="300" r="120" fill="#FBBF24" fill-opacity="0.24"/>
+  <circle cx="350" cy="300" r="80" fill="#FCD34D"/>
+  <path d="M290 380C360 344 430 348 470 392C500 380 520 360 550 360C602 360 646 404 646 456C646 500 610 538 566 538H348C279 538 224 483 224 414C224 365 257 325 290 380Z" fill="#93C5FD" fill-opacity="0.38"/>
+  <path d="M410 500H806" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <path d="M410 560H860" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <path d="M410 620H750" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <rect x="150" y="150" width="190" height="56" rx="16" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.5"/>
+  <text x="245" y="188" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="26" font-weight="700">Weather</text>
+  <text x="600" y="760" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="42" font-weight="700">Live Forecast Dashboard</text>
+</svg>

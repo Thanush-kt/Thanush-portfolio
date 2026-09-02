@@ -1,0 +1,16 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#08130F"/>
+  <rect x="100" y="100" width="1000" height="700" rx="30" fill="#0B1F1A" stroke="#34D399" stroke-opacity="0.4"/>
+  <circle cx="335" cy="270" r="160" fill="#34D399" fill-opacity="0.12"/>
+  <circle cx="900" cy="610" r="190" fill="#22C55E" fill-opacity="0.08"/>
+  <path d="M200 640C260 505 330 455 410 425C500 390 610 390 720 455C820 515 900 610 960 680" stroke="#34D399" stroke-width="10" stroke-linecap="round"/>
+  <path d="M290 530L445 440L600 505L760 365L920 430" stroke="#A7F3D0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="290" cy="530" r="14" fill="#6EE7B7"/>
+  <circle cx="445" cy="440" r="14" fill="#6EE7B7"/>
+  <circle cx="600" cy="505" r="14" fill="#6EE7B7"/>
+  <circle cx="760" cy="365" r="14" fill="#6EE7B7"/>
+  <circle cx="920" cy="430" r="14" fill="#6EE7B7"/>
+  <rect x="170" y="160" width="200" height="56" rx="16" fill="#0F172A" stroke="#34D399" stroke-opacity="0.4"/>
+  <text x="270" y="198" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="28" font-weight="700">EcoStep</text>
+  <text x="600" y="770" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="42" font-weight="700">Carbon Offset Model</text>
+</svg>

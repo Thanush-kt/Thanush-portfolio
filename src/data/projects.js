@@ -107,6 +107,48 @@ export const projectsData = [
     image: "/projects/ecostep.svg"
   },
   {
+    id: "visionmove-hand-gesture",
+    title: "VisionMove - Real-Time AI Hand Gesture Tracking Engine",
+    subtitle: "Polished Real-Time AI Hand Tracking & Interactive Control System",
+    type: "Personal Project",
+    category: "AI/ML",
+    categories: ["Personal Projects", "AI/ML", "Computer Vision", "Python"],
+    featured: true,
+    tagline: "Real-time computer vision system using OpenCV & MediaPipe for touchless gesture interaction and object manipulation.",
+    description: "VisionMove is a production-quality, real-time computer vision application built with Python, OpenCV, and MediaPipe. It features 21-point hand landmark tracking, gesture recognition for 8+ distinct gestures, exponential motion smoothing, physics-based particle systems, and a futuristic cyberpunk glassmorphism UI.",
+
+    problem: "Traditional physical input devices (mouse, keyboard) lack touchless interaction capabilities for hands-free environments, while typical gesture demos suffer from jittery motion, gesture flickering, and unoptimized UI responsiveness.",
+
+    solution: "Engineered a modular, offline computer vision pipeline featuring MediaPipe 21-point hand landmark extraction, gesture classification with majority-voting history stabilization, exponential motion smoothing algorithms, and real-time particle/motion trail graphics rendered at 30 FPS.",
+
+    conceptFlow: [
+      { stage: "Frame Input & Detection", desc: "1280x720 video feed & MediaPipe 21-point 3D landmark extraction." },
+      { stage: "Gesture Classification", desc: "Recognizes 8+ gestures with majority-voting history stabilization." },
+      { stage: "Motion Smoothing Engine", desc: "Exponential velocity interpolation preventing jittery control." },
+      { stage: "Visual Effects & UI", desc: "Renders cyberpunk HUD, glassmorphism panels, particles & motion trails." }
+    ],
+
+    technologies: {
+      computer_vision: ["Python 3.8+", "OpenCV", "MediaPipe"],
+      algorithms: ["Exponential Smoothing", "Landmark Tracking", "Physics Engine"],
+      ui_graphics: ["Glassmorphism HUD", "Particle Physics", "Motion Trails"],
+      architecture: ["Modular Architecture", "Offline Execution", "FPS Optimization"]
+    },
+
+    features: [
+      "Real-time 21-point hand landmark tracking with confidence scoring",
+      "Gesture Recognition Engine classifying 8+ distinct hand gestures (Pointing, Open Palm, Fist, Victory, Thumbs Up)",
+      "Exponential motion smoothing algorithm for fluid, jitter-free object movement",
+      "Physics-based particle system with speed-scaled glow effects and dual-color cyan/magenta motion trails",
+      "Futuristic cyberpunk glassmorphism HUD displaying FPS counter, real-time coordinates, gesture status & directional arrows",
+      "Clean modular architecture separated into tracking, gesture detection, physics controller, effects, and UI modules"
+    ],
+
+    githubUrl: "https://github.com/Thanush-kt/VisionMove",
+    liveUrl: null,
+    image: "/projects/hand-gesture.svg"
+  },
+  {
     id: "weather-dashboard",
     title: "Weather Dashboard",
     type: "Personal Project",
@@ -173,6 +215,7 @@ export const projectCategories = [
   "Minor Project",
   "Web Development",
   "AI/ML",
+  "Computer Vision",
   "JavaScript",
   "Python"
 ];

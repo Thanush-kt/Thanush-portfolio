@@ -1,0 +1,64 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="160" y1="80" x2="1040" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020817"/>
+      <stop offset="0.5" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="240" y1="220" x2="900" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#C084FC"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" rx="40" fill="url(#bg)"/>
+  <circle cx="310" cy="210" r="180" fill="#22D3EE" fill-opacity="0.12"/>
+  <circle cx="880" cy="640" r="220" fill="#A855F7" fill-opacity="0.10"/>
+
+  <g opacity="0.9">
+    <path d="M350 160H850" stroke="#2DD4BF" stroke-width="2" opacity="0.35"/>
+    <path d="M350 740H850" stroke="#2DD4BF" stroke-width="2" opacity="0.35"/>
+    <path d="M300 220V680" stroke="#60A5FA" stroke-width="2" opacity="0.25"/>
+    <path d="M900 220V680" stroke="#60A5FA" stroke-width="2" opacity="0.25"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M560 248C534 258 508 290 495 323L458 428C447 459 445 492 455 522L482 593C491 618 514 635 540 637L603 642C617 643 631 640 643 633L714 589C734 577 751 559 764 536L834 408C850 380 851 342 838 313L810 250C801 230 781 215 760 213H640C611 213 585 224 560 248Z" fill="url(#accent)" fill-opacity="0.18" stroke="url(#accent)" stroke-width="4"/>
+
+    <path d="M550 335L610 268L665 330L700 315L748 404L677 431L640 515L564 500L515 425L550 335Z" fill="#D9F8FF" fill-opacity="0.18" stroke="#A5F3FC" stroke-width="3"/>
+
+    <circle cx="550" cy="335" r="12" fill="#67E8F9"/>
+    <circle cx="610" cy="268" r="12" fill="#67E8F9"/>
+    <circle cx="665" cy="330" r="12" fill="#67E8F9"/>
+    <circle cx="700" cy="315" r="12" fill="#67E8F9"/>
+    <circle cx="748" cy="404" r="12" fill="#67E8F9"/>
+    <circle cx="677" cy="431" r="12" fill="#67E8F9"/>
+    <circle cx="640" cy="515" r="12" fill="#67E8F9"/>
+    <circle cx="564" cy="500" r="12" fill="#67E8F9"/>
+    <circle cx="515" cy="425" r="12" fill="#67E8F9"/>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="120" y="110" width="144" height="52" rx="20" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.5"/>
+    <text x="192" y="146" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="24" font-weight="700">VisionMove</text>
+  </g>
+
+  <g>
+    <path d="M428 440L323 489" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
+    <path d="M756 427L860 477" stroke="#C084FC" stroke-width="6" stroke-linecap="round"/>
+    <path d="M520 235L454 155" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
+    <path d="M690 230L770 150" stroke="#C084FC" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <text x="600" y="780" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="42" font-weight="700">AI HAND GESTURE ENGINE</text>
+  </g>
+</svg>

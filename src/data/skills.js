@@ -35,8 +35,10 @@ export const skillsData = [
   {
     category: "AI & Machine Learning",
     icon: "Brain",
-    description: "Leveraging LLMs, vector search, and NLP for intelligent applications.",
+    description: "Leveraging Computer Vision, LLMs, vector search, and NLP for intelligent applications.",
     skills: [
+      { name: "Computer Vision", level: "Image & Video Processing", tag: "AI/ML" },
+      { name: "OpenCV & MediaPipe", level: "Hand Tracking & Vision", tag: "Library" },
       { name: "Machine Learning", level: "Foundational AI", tag: "Concept" },
       { name: "Natural Language Processing", level: "Text Analytics", tag: "NLP" },
       { name: "Sentiment Analysis", level: "Text Classification", tag: "NLP" },

@@ -1,0 +1,13 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#020617"/>
+  <rect x="80" y="80" width="1040" height="740" rx="30" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.3"/>
+  <circle cx="270" cy="250" r="130" fill="#22D3EE" fill-opacity="0.12"/>
+  <circle cx="920" cy="620" r="180" fill="#A855F7" fill-opacity="0.10"/>
+  <path d="M210 620L360 520L500 560L650 355L790 430L980 260" stroke="#22D3EE" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M210 660H980" stroke="#334155" stroke-width="2"/>
+  <path d="M210 300H340" stroke="#334155" stroke-width="2"/>
+  <path d="M760 195H980" stroke="#334155" stroke-width="2"/>
+  <rect x="180" y="160" width="170" height="56" rx="16" fill="#111827" stroke="#22D3EE" stroke-opacity="0.5"/>
+  <text x="265" y="198" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="26" font-weight="700">Crypto AI</text>
+  <text x="760" y="770" text-anchor="middle" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="42" font-weight="700">Sentiment Trading</text>
+</svg>
